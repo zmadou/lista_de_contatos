@@ -36,7 +36,7 @@ function adicionaLinha(){
         } else if (telefoneNumeros.length === 11) {
             linha += `<td>${imgCelular}</td>`;
         } else {
-            alertalert('O número de telefone deve conter 10 ou 11 dígitos.');
+            alert('O número de telefone deve conter 10 ou 11 dígitos.');
             contatos.pop();
             telefones.pop();
             return;
